@@ -24,6 +24,10 @@ setuptools.setup(
     py_modules=['anc-maper'],
     packages=setuptools.find_packages(where="src"),
     python_requires=">=3.12",
+    INSTALL_REQUIRES = [
+    'matplotlib>=3.9.0',
+    'japanmap>=0.3.1'
+    ],
     entry_points = {
         'console_scripts': [
             'anc-maper = anc-maper:main'
