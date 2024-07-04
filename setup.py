@@ -20,11 +20,9 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    package_dir={"": "src"},
-    py_modules=["anc-maper"],
-    packages=setuptools.find_packages(where="src"),
+    py_modules=["anc_maper"],
     python_requires=">=3.12",
-    INSTALL_REQUIRES = [
+    install_requires = [
     'matplotlib>=3.9.0',
     'japanmap>=0.3.1'
     ],
