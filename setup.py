@@ -21,7 +21,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     package_dir={"": "src"},
-    py_modules=['anc-maper'],
+    py_modules=["anc-maper"],
     packages=setuptools.find_packages(where="src"),
     python_requires=">=3.12",
     INSTALL_REQUIRES = [
@@ -30,7 +30,7 @@ setuptools.setup(
     ],
     entry_points = {
         'console_scripts': [
-            'anc-maper = anc-maper:main'
-        ]
+            'anc-maper = anc_maper:main'
+        ],
     },
 )
